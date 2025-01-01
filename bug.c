@@ -1,0 +1,1 @@
+int main() {    int arr[5] = {1, 2, 3, 4, 5};    int *ptr = arr + 5; //Error: Pointer points to memory outside the array    *ptr = 10; //Undefined Behavior    return 0; }
